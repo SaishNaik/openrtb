@@ -1,7 +1,6 @@
 package adcom1
 
 import "encoding/json"
-
 // Audit objects represents the outcome of some form of review of the ad.
 // This is typical, for example, when scanning for malware or otherwise performing ad quality reviews.
 type Audit struct {
